@@ -22,7 +22,7 @@ BlynkTimer timer;        //--> Begin Blynk Timer
 
 // Motor and Buzzer pins
 #define motorPin D3
-#define buzzerPin D7
+#define buzzerPin D2
 
 // Initialize the MLX90614 sensor
 Adafruit_MLX90614 mlx = Adafruit_MLX90614();
@@ -31,7 +31,8 @@ void setup() {
   // Initialize the motor and buzzer pins as output
   pinMode(motorPin, OUTPUT);
   pinMode(buzzerPin, OUTPUT);
-
+     digitalWrite(motorPin, HIGH);
+     digitalWrite(buzzerPin, HIGH);
   // Initialize the serial port for debugging
   Serial.begin(9600);
 
@@ -116,10 +117,7 @@ void loop() {
       Blynk.virtualWrite(V2,HIGH);
       digitalWrite(buzzerPin, LOW);
       Blynk.virtualWrite(V4,HIGH);
-
-      // Wait for 1 second
-      delay(1000);
-
+    } else {
       // Deactivate the motor and buzzer
       digitalWrite(motorPin, HIGH);
       Blynk.virtualWrite(V2,LOW);
