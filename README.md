@@ -14,7 +14,7 @@ Overall, this system offers several benefits over traditional coolant supply met
 
 ![web dashbord 1](https://user-images.githubusercontent.com/88943865/237030579-f35a79a9-b844-485d-8fd1-5f00375aa00c.png)
 
-* After the metal temperature reaches the minimum temperature, the motor turns on. When the temperature reaches the maximum level, the buzzer turns on.
+* After the metal temperature reaches the minimum threshold, the motor turns on. When the temperature reaches the maximum level, the buzzer turns on.
 
 ![web dashbord 2](https://user-images.githubusercontent.com/88943865/237031851-2e0cdda8-e156-47f2-9b15-80caa59520b3.png)
 
