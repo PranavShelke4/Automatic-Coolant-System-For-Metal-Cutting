@@ -20,6 +20,17 @@ Overall, this system offers several benefits over traditional coolant supply met
 
 # Screenshot of App Dashboard
 
-![appss](https://user-images.githubusercontent.com/88943865/237034122-c89d6f61-d553-459b-8b1f-99cbb4d746fd.jpg)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/88943865/237034122-c89d6f61-d553-459b-8b1f-99cbb4d746fd.jpg"  width="30%" height="10%">
+</p>
+
+# Screenshot of Hardwere
+
+![IMG_20230425_125819](https://user-images.githubusercontent.com/88943865/237038825-d5522156-d892-4881-a57f-a8d84efb3ff5.jpg)
+
+# Screenshot of CKT Diagram
+
+![CKT Diagram](https://user-images.githubusercontent.com/88943865/237038552-62143f19-2763-4d65-926f-32abadaa01e3.png)
+
 
 
